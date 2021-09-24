@@ -7,7 +7,7 @@ Important notes on default tsconfig:
 
 
 <!-- TODO: link -->
-Generating should always happen via some *TypeScript builder* and not via strings manipulations as Prisma do (use ts-morph or TS factory)
+Generating should always happen via some *TypeScript builder* and not via strings manipulations as [Prisma](https://github.com/prisma/prisma/blob/188d6c8e28f0cfbaf112428aa5216c957e497ae4/packages/client/src/generation/TSClient/Model.ts#L443) do (use ts-morph or TS factory)
 
 With this module you can use two types of builders:
 
@@ -34,3 +34,7 @@ see `./example-time` dir
 ## More Examples
 
 TIME example
+
+## TODO
+
+- keywords
