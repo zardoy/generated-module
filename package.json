@@ -1,10 +1,13 @@
 {
     "name": "generated-module",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "main": "build/index.js",
     "types": "build/index.d.ts",
     "repository": "https://github.com/zardoy/generated-module",
     "description": "Generate types or/and runtime JS dynamically on some package install",
+    "files": [
+        "build"
+    ],
     "license": "MIT",
     "scripts": {
         "prepublishOnly": "tsc",
